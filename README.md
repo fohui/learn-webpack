@@ -1,5 +1,13 @@
 # learn-webpack
-[webpack打包原理 ? 看完这篇你就懂了 !](https://juejin.cn/post/6844904038543130637#heading-11): 简易webpack实现，实现了完整打包过程，但未实现webpcak插件机制
+来自以下文章的学习，感谢：
+[webpack打包原理 ? 看完这篇你就懂了 !](https://juejin.cn/post/6844904038543130637#heading-11)：简易webpack实现，实现了完整打包过程，但未实现webpcak插件机制
+
+## 运行
+在根目录执行以下node命令，开始打包：
+```javascript
+node index.js
+```
+它会收集webpack.config.js的配置，引入lib/compiler开始打包编译过程，最终会在dist生成bundle文件。
 
 ## 简易webpack 运行流程
 
